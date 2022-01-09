@@ -21,9 +21,10 @@ public class BallHitController : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100))
             {
                 Vector3 hitDirection = transform.position - hit.point;
+                hitDirection.y = 0;
                 Vector3[] linePoints = new Vector3[2];
                 linePoints[0] = transform.position;
-                linePoints[1] = hitDirection;
+                linePoints[1] = transform.position + hitDirection;
                 lr.SetPositions(linePoints);
             }
         }

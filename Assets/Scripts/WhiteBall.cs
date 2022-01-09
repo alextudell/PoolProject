@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class WhiteBall : MonoBehaviour
 {
+    [SerializeField]
+    Rigidbody rb;
+
     private void Update()
     {
         CheckWhiteBallPosition();
@@ -24,6 +27,7 @@ public class WhiteBall : MonoBehaviour
             if (transform.position.y < 11.5f)
             {
                 transform.position = new Vector3(150f, 13.5f, 154f);
-            }
+                rb.constraints = RigidbodyConstraints.FreezePositionY;
+        }
     }
 }
