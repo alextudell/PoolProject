@@ -44,11 +44,18 @@ public class GameLogic : MonoBehaviour {
 	}
 
 
-	public void NextLevel ()
-	{	
+	public void NextLevel()
+	{
 		Score.level++;
 		Score.score += Mathf.FloorToInt(timer);
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		if (SceneManager.GetActiveScene().buildIndex + 1 <= 4)
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		}
+		else
+		{
+			SceneManager.LoadScene(0);
+		}
 	}
 
 	private void OnTriggerEnter(Collider other)
