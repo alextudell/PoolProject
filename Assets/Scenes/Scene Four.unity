@@ -1507,8 +1507,9 @@ GameObject:
   - component: {fileID: 923765648}
   - component: {fileID: 923765647}
   - component: {fileID: 923765646}
+  - component: {fileID: 923765650}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Pocket 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,8 +1523,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923765644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: 1.32, z: 0.11}
-  m_LocalScale: {x: 2, y: 1.4493, z: 2}
+  m_LocalPosition: {x: 0.09, y: 1.32, z: -0.05}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_Children: []
   m_Father: {fileID: 248868496}
   m_RootOrder: 0
@@ -1602,6 +1603,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923765644}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &923765650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923765644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae04fe611d4d0441b942c2d1d8ac5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &942679352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1847,7 +1860,7 @@ GameObject:
   - component: {fileID: 985478803}
   - component: {fileID: 985478802}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: Pocket 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1955,7 +1968,7 @@ GameObject:
   - component: {fileID: 993666920}
   - component: {fileID: 993666919}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: Pocket 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2780,7 +2793,7 @@ GameObject:
   - component: {fileID: 1528790304}
   - component: {fileID: 1528790303}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: Pocket 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3323,8 +3336,9 @@ GameObject:
   - component: {fileID: 1720513734}
   - component: {fileID: 1720513733}
   - component: {fileID: 1720513732}
+  - component: {fileID: 1720513736}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: Pocket 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3338,8 +3352,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720513730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: 1.32, z: 20.11}
-  m_LocalScale: {x: 2, y: 1.4493, z: 2}
+  m_LocalPosition: {x: -0.06, y: 1.32, z: 20.01}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_Children: []
   m_Father: {fileID: 248868496}
   m_RootOrder: 3
@@ -3418,6 +3432,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720513730}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1720513736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720513730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae04fe611d4d0441b942c2d1d8ac5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1773752357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,7 +3458,7 @@ GameObject:
   - component: {fileID: 1773752360}
   - component: {fileID: 1773752359}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Pocket 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
